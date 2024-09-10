@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabTrainer", "VocabTrainer.csproj", "{389A529B-BF56-498C-AD62-84FC2B520D54}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VocabTrainerSetup", "..\..\setups\VocabTrainerSetup\VocabTrainerSetup.vdproj", "{DD3EF66A-3363-4CCA-989A-BDE6BF510188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389A529B-BF56-498C-AD62-84FC2B520D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389A529B-BF56-498C-AD62-84FC2B520D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389A529B-BF56-498C-AD62-84FC2B520D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389A529B-BF56-498C-AD62-84FC2B520D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3EF66A-3363-4CCA-989A-BDE6BF510188}.Debug|Any CPU.ActiveCfg = Debug
+		{DD3EF66A-3363-4CCA-989A-BDE6BF510188}.Debug|Any CPU.Build.0 = Debug
+		{DD3EF66A-3363-4CCA-989A-BDE6BF510188}.Release|Any CPU.ActiveCfg = Release
+		{DD3EF66A-3363-4CCA-989A-BDE6BF510188}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B1DD4A3-5F0A-48E3-A82E-A3EFB53F8A79}
+	EndGlobalSection
+EndGlobal
